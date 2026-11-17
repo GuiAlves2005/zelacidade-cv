@@ -78,8 +78,6 @@ tests/                          testes (os de severidade, privacidade e ONNX rod
 requirements.txt                dependências; requirements-lock.txt = versões exatas (pip freeze no Windows)
 ```
 
-Ficam fora do Git (gerados ou baixados): `dados/brutos/`, `dados/zelacidade/`, os pesos intermediários em
-`runs/buraco_yolo11n/weights/`, o pacote `entrega_onnx/` e as galerias `resultados/exemplos/` e `resultados/erros/`.
 
 ## Como reproduzir
 
