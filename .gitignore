@@ -1,0 +1,51 @@
+# ambiente, segredos e caches
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# dados: baixar e montar conforme dados/README.md
+dados/brutos/
+dados/zelacidade/
+
+# pesos e pacotes: só o modelo treinado sobe
+*.pt
+*.onnx
+*.zip
+entrega_onnx/
+modelos/*
+!modelos/buraco.pt
+
+# treino: só curvas, tabela por época e configuração
+runs/*
+!runs/buraco_yolo11n/
+runs/buraco_yolo11n/*
+!runs/buraco_yolo11n/results.csv
+!runs/buraco_yolo11n/results.png
+!runs/buraco_yolo11n/args.yaml
+
+# resultados: métricas, curvas do teste, FPS e quadros do demo
+resultados/*
+!resultados/metricas.md
+!resultados/metricas.json
+!resultados/fps_video.json
+!resultados/quadros_demo/
+!resultados/val_teste/
+resultados/val_teste/*
+!resultados/val_teste/BoxPR_curve.png
+!resultados/val_teste/BoxF1_curve.png
+!resultados/val_teste/confusion_matrix.png
+
+# documentos: o relatório oficial é o PDF
+docs/*.docx
+
+# vídeos: só a gravação de teste da equipe e o demo anotado
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+!videos/rua.mp4
+!resultados/demo.mp4

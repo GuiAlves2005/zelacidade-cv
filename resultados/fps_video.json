@@ -1,0 +1,14 @@
+{
+  "video": "rua.mp4",
+  "resolucao": "1920x1080",
+  "fps_do_video": 30.0,
+  "quadros": 300,
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "conf": 0.35,
+  "imgsz": 640,
+  "inferencia_ms_media": 10.81,
+  "inferencia_ms_p95": 12.97,
+  "fps_inferencia": 92.5,
+  "pipeline_ms_media": 26.18,
+  "fps_pipeline": 38.2
+}

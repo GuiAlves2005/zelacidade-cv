@@ -1,0 +1,18 @@
+# PyTorch antes (RTX série 50 precisa de CUDA 12.8+):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+ultralytics>=8.3
+onnx>=1.16
+onnxslim>=0.1.40
+onnxruntime>=1.18
+opencv-python>=4.9,<5
+pillow>=10.0
+pyyaml>=6.0
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+requests>=2.31
+jupyter>=1.0
+pytest>=8.0

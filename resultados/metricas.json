@@ -1,0 +1,17 @@
+{
+  "geral": {
+    "mAP50": 0.7928,
+    "mAP50_95": 0.4767,
+    "precisao": 0.7174,
+    "recall": 0.7627,
+    "F1": 0.7394,
+    "ms_por_imagem": 7.37,
+    "fps": 135.7
+  },
+  "contagem_conf_produto": {
+    "conf": 0.35,
+    "TP": 120,
+    "FP": 31,
+    "FN": 57
+  }
+}
