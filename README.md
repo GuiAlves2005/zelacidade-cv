@@ -1,14 +1,14 @@
 # ZelaCidade · Visão — detecção de buracos em tempo real
 
 > **Global Solution 2026.2 · CitizenTech · FIAP Engenharia de Software 4º ano**
-> Disciplina: **Applied Computer Vision** — *Enxergando o mundo real* (Prof. Arnaldo Viana e Paulo Rodrigues)
+> Disciplina: **Applied Computer Vision** — *Enxergando o mundo real* (Prof. Paulo Rodrigues)
 
 Componente de **Visão** da ZelaCidade: um detector **YOLO11 treinado de forma customizada** encontra buracos em
 fotos e vídeos de vias públicas. No MVP, quando o morador envia a foto de uma ocorrência, a API `/detectar` sugere
 a categoria *buraco na via*, estima a severidade e devolve a imagem anotada; o morador confirma antes de registrar.
 
 💻 **Repositório:** <https://github.com/GuiAlves2005/zelacidade-cv>
-🎥 **Vídeo de demonstração:** «link do YouTube (não listado)»
+🎥 **Vídeo de demonstração:** https://youtu.be/xjDae08jVwg
 📄 **Documento técnico (PDF):** [`docs/relatorio_visao.pdf`](docs/relatorio_visao.pdf)
 
 ## Integrantes
