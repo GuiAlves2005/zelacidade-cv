@@ -135,7 +135,7 @@ def main() -> None:
     for nome, e in esperado.items():
         print(f"{nome}: {e['n_caixas']} caixa(s), severidade {e['severidade']}")
     print("Conferência ONNX × Ultralytics:", "OK" if not divergencias else f"divergiu em {divergencias}")
-    print(f"Pacote em {saida} — zipe a pasta e mande para o backend.")
+    print(f"Pacote em {saida}")
 
 
 if __name__ == "__main__":

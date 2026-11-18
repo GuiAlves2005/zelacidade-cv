@@ -2,8 +2,7 @@
 
 Cada fonte é uma pasta com subpastas de imagens e rótulos YOLO (.txt), em qualquer nível
 (ex.: o zip do Roboflow tem train/images, train/labels, valid/..., test/...). Pares sem rótulo
-são tratados como imagens NEGATIVAS (sem buraco), úteis para reduzir falsos positivos —
-coloque fotos de asfalto bom, bueiros, sombras e manchas com um .txt vazio.
+são tratados como imagens NEGATIVAS (sem buraco), úteis para reduzir falsos positivos.
 
 A divisão é feita por fonte com semente fixa (70/20/10), então cada fonte tem uma parte no TESTE —
 com mais de uma fonte, isso permite medir o desempenho separado por fonte.

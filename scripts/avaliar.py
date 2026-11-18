@@ -1,4 +1,4 @@
-"""Avalia o detector no conjunto de TESTE (nunca visto no treino) e gera as evidências do relatório.
+"""Avalia o detector no conjunto de TESTE (nunca visto no treino): métricas, curvas e galerias de acertos e erros.
 
 Saídas em resultados/:
   metricas.json / metricas.md     mAP50, mAP50-95, precisão, recall, F1, FPS — geral e por fonte

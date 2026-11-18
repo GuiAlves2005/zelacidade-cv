@@ -1,7 +1,7 @@
 """Treino customizado do detector de buracos (fine-tuning de YOLO pré-treinado no COCO).
 
 Por que fine-tuning? O modelo já sabe extrair bordas, texturas e formas de milhões de imagens;
-só ensinamos a nova classe 'buraco' com algumas centenas de exemplos — converge em poucas horas numa GPU de 8 GB.
+só ensinamos a nova classe 'buraco' com algumas centenas de exemplos — converge em poucos minutos numa GPU de 8 GB.
 
 Uso:
   python scripts/treinar.py                                   # yolo11n, 100 épocas, 640 px

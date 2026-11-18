@@ -5,7 +5,7 @@ Mostra caixas, confiança, severidade estimada e FPS na tela. Opcionalmente grav
 
 Uso:
   python scripts/tempo_real.py --fonte 0                                  # webcam
-  python scripts/tempo_real.py --fonte videos/rua_tucuruvi.mp4 --gravar resultados/demo.mp4
+  python scripts/tempo_real.py --fonte videos/rua.mp4 --gravar resultados/demo.mp4
   python scripts/tempo_real.py --fonte http://192.168.0.10:8080/video     # app "IP Webcam" no celular
 Teclas: q = sair · espaço = pausar · s = salvar quadro
 """

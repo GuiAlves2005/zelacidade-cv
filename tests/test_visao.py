@@ -94,7 +94,7 @@ def test_api_bate_com_esperado_do_onnx():
 
     pacote = RAIZ / "entrega_onnx"
     if not (RAIZ / "modelos/buraco.pt").exists() or not (pacote / "esperado.json").exists():
-        pytest.skip("rode scripts/treinar.py e scripts/exportar_onnx.py antes")
+        pytest.skip("requer modelos/buraco.pt e entrega_onnx/ (gerados por scripts/treinar.py e scripts/exportar_onnx.py)")
     from fastapi.testclient import TestClient
 
     sys.path.insert(0, str(RAIZ))

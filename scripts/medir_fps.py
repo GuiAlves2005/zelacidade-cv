@@ -1,7 +1,7 @@
 """Mede o FPS do detector num vídeo, em TODOS os quadros, com o mesmo predict do tempo_real.py.
 
 O tempo_real.py mostra na tela uma média móvel do FPS de inferência; este script grava números
-reprodutíveis para o relatório em resultados/fps_video.json:
+reprodutíveis em resultados/fps_video.json:
   - inferência: só o modelo.predict (pré-processamento + rede + NMS), como no tempo_real.py;
   - pipeline:   ler o quadro + predict + desenhar as caixas + gravar o vídeo anotado.
 Os 10 primeiros predicts servem de aquecimento da GPU e não entram na média.
